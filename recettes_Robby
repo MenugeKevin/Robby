@@ -1,0 +1,23 @@
+Salade Provencale;entree
+salade;10
+tomate;5
+-----
+Salade nature;entree
+salade;10
+sauce;1
+-----
+Pate Carbonara;plat
+pate;1
+carbonara;5
+-----
+Fondu savoie;plat
+fromage;50
+pain;10
+-----
+Banana split;dessert
+banane;1
+glace;3
+-----
+Fondu choco;dessert
+chocolat;2
+sauce choco;10

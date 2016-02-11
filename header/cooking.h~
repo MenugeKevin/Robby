@@ -1,0 +1,30 @@
+/*
+** cooking.h for robby in /home/menuge_k/rendu/Robby
+**
+** Made by kevin menuge
+** Login   <menuge_k@epitech.net>
+**
+** Started on  Sun Jun 29 17:56:26 2014 kevin menuge
+** Last update Sun Jun 29 18:01:30 2014 kevin menuge
+*/
+
+#ifndef COOKING_H_
+# define COOKING_H_
+
+#include "robby.h"
+
+typedef struct		s_ing
+{
+  int			nb;
+  char			name[BUF_SIZE];
+  struct s_ing		*next;
+}			t_ing;
+
+typedef struct		s_rec
+{
+  char			type[BUF_SIZE];
+  char			name[BUF_SIZE];
+  t_ing			*ingredients;
+}			t_rec
+
+#endif /* COOKING_H_ */
