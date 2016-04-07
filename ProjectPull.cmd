@@ -1,4 +1,4 @@
-@echo off
+
 set BRANCH="dev"
 set DEVEL="master"
 

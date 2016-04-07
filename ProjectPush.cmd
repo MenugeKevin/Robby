@@ -1,4 +1,3 @@
-@echo off
 
 set BRANCH="master"
 set MSG=
