@@ -1,6 +1,6 @@
-#@echo off
+@echo off
 
-set BRANCH = "dev"
+set BRANCH="master"
 set MSG=
 set /P MSG=Message du commmit: %=%
 

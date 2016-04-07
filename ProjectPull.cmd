@@ -1,7 +1,9 @@
 @echo off
-set BRANCH = "origin"
+set BRANCH="dev"
+set DEVEL="master"
 
-git fetch --progress -v %BRANCH%
-git rebase %BRANCH% -i
+git checkout %BRANCH% --progress
+git fetch --progress -v %DEVEL%
+git rebase %DEVEL% 
 
 pause
