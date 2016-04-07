@@ -2,7 +2,7 @@
 
 set BRANCH = "origin"
 set MSG=
-set MSG=Message du commmit: %=%
+set /P MSG=Message du commmit: %=%
 
 git add -A
 git commit -am "Auto commited = %MSG%"
