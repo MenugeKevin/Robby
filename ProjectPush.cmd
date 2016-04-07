@@ -5,7 +5,7 @@ set /P MSG=Message du commmit: %=%
 
 git checkout %BRANCH%
 git add -A
-git commit -amv "Auto commited = %MSG%"
+git commit -am "Auto commited = %MSG%"
 git push origin %BRANCH% 
 
 
