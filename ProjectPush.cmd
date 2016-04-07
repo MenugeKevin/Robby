@@ -6,4 +6,6 @@ set /P MSG=Message du commmit: %=%
 
 git add -A
 git commit -am "Auto commited = %MSG%"
-git push %BRANCH%
+git push %BRANCH% 
+
+pause
