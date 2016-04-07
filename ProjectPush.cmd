@@ -1,12 +1,12 @@
 @echo off
 
-set BRANCH="dev"
+set BRANCH="master"
 set MSG=
 set /P MSG=Message du commmit: %=%
 
 git checkout -b %BRANCH%
 git add -A
 git commit -am "Auto commited = %MSG%"
-git push %BRANCH% 
+git push origin %BRANCH% 
 
 pause
