@@ -6,5 +6,5 @@ git checkout %BRANCH% --progress
 git fetch --progress -v origin %DEVEL%
 git rebase origin %DEVEL% 
 
-#Master
+
 pause
