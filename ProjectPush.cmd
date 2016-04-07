@@ -1,4 +1,4 @@
-@echo off
+#@echo off
 
 set BRANCH = "dev"
 set MSG=
