@@ -1,5 +1,5 @@
 
-set BRANCH="master"
+set BRANCH="dev"
 set MSG=
 set /P MSG=Message du commmit: %=%
 
